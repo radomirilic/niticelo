@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+    }
+.samozavrsi{
+    color:yellow
+}
+.ijao{
+    background-color: blue;
+    width: 150px;
+    height: 350px;
+    text-align: center;
+}
+a{
+    display:inline-block;
+    text-decoration:none;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    background-color: chocolate;
+}
