@@ -1,0 +1,45 @@
+body {
+  background-color: aquamarine;
+}
+.prva-lista {
+  width: 400px;
+  padding: 30px;
+  background-color: blue;
+  color: white;
+  float: left;
+}
+.prva-lista p:first-child,
+.druga-lista p:first-child,
+.treca-lista p:first-child{
+  border-bottom: 4px solid black;
+  font-size: 22px;
+  text-align: center;
+}
+.drugi-paragraf {
+  font-size: 20px;
+  font-weight: bolder;
+  color: cornsilk;
+}
+ul li {
+  list-style-type: squares;
+  line-height: 30px;
+}
+.druga-lista {
+  width: 400px;
+  padding: 30px;
+  background-color: green;
+  color: white;
+  float: left;
+  margin-left: 100px;
+}
+ol li {
+  list-style-type: upper-roman;
+  line-height: 30px;
+}
+.treca-lista {
+  width: 400px;
+  color:blue;
+  background-color: rgb(6, 82, 82);
+  padding: 30px;
+  margin-top: 20%;
+}
