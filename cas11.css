@@ -1,0 +1,66 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font: inherit;
+}
+body {
+  background-color: black;
+}
+.main-div {
+  width: 100vw;
+  height: 90vh;
+  background-image: url(kafica\ za\ dobro\ jutro\ 1.jpg);
+  background-size: cover;
+  display: flex;
+  border: 1px solid black ;
+}
+.left-nav {
+  padding-top: 5vh;
+  flex: 2;
+}
+.left-nav a {
+  padding-top: 40px;
+  display: block;
+  height: 10vh;
+  border-bottom: 2px solid yellow;
+  color: yellow;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.center {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+.text-center{
+  padding-top:10vh;
+  text-align: center;
+  background-color: black;
+  text-align: center;
+  width: 30vw;
+  height: 30vh;
+  color: yellow;
+}
+.right-nav {
+  padding-top: 5vh;
+  flex: 2;
+}
+.right-nav a {
+  padding-top: 40px;
+  display: block;
+  height: 10vh;
+  border-bottom: 2px solid yellow;
+  color: yellow;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.bottom-side {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  height: 10vh;
+  text-align: center;
+  padding-top: 3vh;
+}
